@@ -34,12 +34,12 @@ Runs on http://localhost:3000
 
 ## Features
 
-- 🏠 Apartment listing with cards
-- 🔍 Search by title
-- 🔧 Filter by rooms and price range
-- 📄 Detail page for each apartment
-- 🌙 Dark / Light mode
-- 💀 Skeleton loading
-- 📱 Responsive design
+- Apartment listing with cards
+- Search by title
+- Filter by rooms and price range
+- Detail page for each apartment
+- Dark / Light mode
+- Skeleton loading
+- Responsive design
 
 ## Project Structure

@@ -1,8 +1,23 @@
-import ApartmentList from "../widget/appartment/appartment-list";
+import ApartmentList from "@/src/widget/appartment/appartment-list"
 
+export default async function HomePage({
+  searchParams,
+}: {
+  searchParams: Promise<{
+    search?: string
+    rooms?: string
+    minPrice?: string
+    maxPrice?: string
+  }>
+}) {
+  const params = await searchParams
 
-export default function Home() {
-  return <div className="dark:bg-zinc-950">
-  <ApartmentList/>
-  </div>;
+  return (
+    <ApartmentList
+      search={params.search}
+      rooms={params.rooms}
+      minPrice={params.minPrice}
+      maxPrice={params.maxPrice}
+    />
+  )
 }
