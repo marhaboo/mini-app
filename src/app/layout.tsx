@@ -1,6 +1,7 @@
 import Footer from "../widget/footer/footer";
 import Header from "../widget/header/header";
 import "../shared/styles/globals.css";
+import { Providers } from "../shared/theme/theme.provider";
 
 export default function RootLayout({
   children,
@@ -8,11 +9,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <Providers>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

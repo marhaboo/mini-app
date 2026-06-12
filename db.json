@@ -1,0 +1,110 @@
+[
+  {
+    "id": "apt-001",
+    "title": "Minimalist Studio in the Heart of the City",
+    "price": 85000,
+    "rooms": 1,
+    "area": 42.5,
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=600",
+    "description": "Cozy, fully furnished single-room studio apartment featuring panoramic floor-to-ceiling windows and premium smart appliances."
+  },
+  {
+    "id": "apt-002",
+    "title": "Modern 2-Bedroom Family Apartment",
+    "price": 145000,
+    "rooms": 2,
+    "area": 68.0,
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=600",
+    "description": "Bright and spacious apartment located in a quiet residential area, featuring a separate dining space and an attached balcony."
+  },
+  {
+    "id": "apt-003",
+    "title": "Luxury Penthouse with Rooftop Terrace",
+    "price": 420000,
+    "rooms": 4,
+    "area": 165.5,
+    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=600",
+    "description": "Stunning top-floor penthouse with premium marble finishes, a private elevator entrance, and a massive 50m² rooftop terrace."
+  },
+  {
+    "id": "apt-004",
+    "title": "Cozy Scandinavian 1-Bedroom Flat",
+    "price": 98000,
+    "rooms": 1,
+    "area": 50.0,
+    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=600",
+    "description": "Beautifully styled flat using warm woods and clean lines, situated just minutes away from local parks and metro lines."
+  },
+  {
+    "id": "apt-005",
+    "title": "Industrial Loft with Exposed Brickwork",
+    "price": 195000,
+    "rooms": 2,
+    "area": 88.0,
+    "image": "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?q=80&w=600",
+    "description": "Authentic converted factory loft featuring high open ceilings, original iron beams, and custom industrial lighting setups."
+  },
+  {
+    "id": "apt-006",
+    "title": "Spacious 3-Bedroom Comfort Living",
+    "price": 230000,
+    "rooms": 3,
+    "area": 112.3,
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=600",
+    "description": "Excellent layout for a growing family, boasting a master suite, walk-in closets, and two secure designated garage parking slots."
+  },
+  {
+    "id": "apt-007",
+    "title": "Sleek High-Rise Apartment with Sea View",
+    "price": 310000,
+    "rooms": 2,
+    "area": 75.0,
+    "image": "https://images.unsplash.com/photo-1502672023488-70e25813eb80?q=80&w=600",
+    "description": "Positioned on the 32nd floor of a premium skyscraper, offering breathtaking uninterrupted morning views of the coastline."
+  },
+  {
+    "id": "apt-008",
+    "title": "Compact Urban Smart Apartment",
+    "price": 79000,
+    "rooms": 1,
+    "area": 38.0,
+    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=600",
+    "description": "Highly efficient compact space fully automated with integrated voice controls for lights, climate systems, and security."
+  },
+  {
+    "id": "apt-009",
+    "title": "Premium Duplex with Private Garden",
+    "price": 285000,
+    "rooms": 3,
+    "area": 125.0,
+    "image": "https://images.unsplash.com/photo-1617806118233-18e1db207f62?q=80&w=600",
+    "description": "Split-level luxury duplex apartment with internal winding staircase and an exclusive ground-level manicured lawn space."
+  },
+  {
+    "id": "apt-010",
+    "title": "Sunny Suburban 2-Bedroom Retreat",
+    "price": 135000,
+    "rooms": 2,
+    "area": 72.5,
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=600",
+    "description": "South-facing apartment receiving abundant natural sunlight throughout the entire day, located in a green eco-friendly suburb."
+  },
+  {
+    "id": "apt-011",
+    "title": "Grand 4-Bedroom Elite Residency",
+    "price": 390000,
+    "rooms": 4,
+    "area": 150.0,
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=600",
+    "description": "Stately high-end residence configured with an expansive living room, dedicated study area, and state-of-the-art chef's kitchen."
+  },
+  {
+    "id": "apt-012",
+    "title": "Charming Vintage Studio Flat",
+    "price": 92000,
+    "rooms": 1,
+    "area": 45.0,
+    "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=600",
+    "description": "Beautiful historic building apartment showcasing masterfully restored original parquet flooring and tall decorative crown molding."
+  }
+]
