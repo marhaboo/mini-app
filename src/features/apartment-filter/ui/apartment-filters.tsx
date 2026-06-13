@@ -49,7 +49,7 @@ const ApartmentFilters = () => {
   const hasFilters = search || rooms || minPrice || maxPrice;
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-6">
+    <div className="mx-auto  dark:bg-zinc-950 max-w-7xl px-4 sm:px-6 lg:px-8 mt-6">
       <div className="bg-white dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 rounded-2xl px-4 py-3 flex flex-wrap items-center gap-3">
         <div className="relative flex-1 min-w-[180px]">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-3.5 text-zinc-400" />

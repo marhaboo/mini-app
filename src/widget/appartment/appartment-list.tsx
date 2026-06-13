@@ -28,7 +28,7 @@ const ApartmentList = async ({
   const isFiltering = Boolean(search || rooms || minPrice || maxPrice);
 
   return (
-    <>
+    <div className="dark:bg-zinc-950 bg-transparent">
       <Hero />
       <ApartmentFilters />
 
@@ -46,8 +46,8 @@ const ApartmentList = async ({
         </div>
 
         {apartments.length === 0 ? (
-          <div className="flex flex-col items-center justify-center py-24 gap-3 text-center bg-white dark:bg-zinc-900/30 rounded-2xl border border-dashed border-zinc-200 dark:border-zinc-800 px-4">
-            <div className="p-3 bg-zinc-50 dark:bg-zinc-900 rounded-full text-zinc-400 dark:text-zinc-500">
+          <div className="flex flex-col items-center justify-center py-24 gap-3 text-center bg-white dark:bg-zinc-950 rounded-2xl border border-dashed border-zinc-200 dark:border-zinc-800 px-4">
+            <div className="p-3 bg-zinc-50 dark:bg-zinc-950 rounded-full text-zinc-400 dark:text-zinc-500">
               <Home className="size-6 stroke-[1.5]" />
             </div>
             <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-50 mt-2">
@@ -66,7 +66,7 @@ const ApartmentList = async ({
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
